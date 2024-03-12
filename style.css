@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    color: #fff;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    transition:0.3s ease ;
+}
+.logo:hover{
+    color: #B6D0E2;
+    text-shadow: 0 0 25px #B6D0E2,
+                 0 0 50px #B6D0E2;
+    transform:scale(1.1) ;
+
+}
+span{
+    color: #B6D0E2;
+    
+    
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #B6D0E2;
+    border-bottom: 3px solid #B6D0E2;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: #fff;
+    color:black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: #B6D0E2;
+    box-shadow: 0 0 25px  #B6D0E2;
+    color: whitesmoke;
+    transform:scale(1.1) ;
+
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+
+}
+.home-content h3{
+    font-size: 42px;
+    color: black;
+
+
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+    color: black;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25pc 0 30px;
+    color: black;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: #B6D0E2;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.btn-2:hover{
+    color: #B6D0E2;
+    background-color: #fff;
+    border: 2px solid black;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 560px;
+  
+
+}
+span.ris{
+    color: #B6D0E2;
+    font-size: 50px;
+    
+}
+span.ris:hover{
+    color: #B6D0E2;
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0 0 25px #B6D0E2,
+    0 0 50px #B6D0E2;
+transform:scale(1.1) ;
+
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #B6D0E2;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: black;
+}
+.about-img img{
+  
+    position: relative;
+    box-shadow: 0 0 25px #B6D0E2,
+                0 0 50px #B6D0E2;
+     border-radius: 50%;
+    width: 560px;
+}
+.about-content h2{
+    text-align: left;
+    color: #fff;
+    font-size: 42px;
+}
+.about-content h3{
+    font-size: 62px;
+    color: #fff;
+
+}
+.about-content p{
+    color: #fff;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    color: black;
+
+}
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-form form.input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgba(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
